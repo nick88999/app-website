@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 	<title>Raps World</title>
 	<link href="css/general.css" rel="stylesheet">
+    <link href="css/video.css" rel="stylesheet">
+    <link href="css/dialog-polyfill.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
 	<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=devicedpi">
@@ -57,6 +59,14 @@
             
         </div>
         
+        <button id="btn-open">Open Video</button>
+        
+        <dialog id="video">
+            <button id="btn-close">×</button>
+            <h1>It works!</h1>
+            <div id="video-placeholder"></div>
+        </dialog>
+        
         <div class="foot2">   
            
             <footer>
@@ -69,6 +79,8 @@
     
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script src="js/main.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/dialog-polyfill.js"></script>
 
 </body>
 </html>
